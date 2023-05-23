@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.e-schedule .e-appointment-details
+{
+  padding:0 !important;
+  background-color: #0081C9;
+  color:black
+}
+.e-schedule .e-month-view
+{
+ background: aqua
+}
+.e-schedule .e-work-days
+{
+  background: forestgreen;
+}
+.e-schedule .e-block-appointment	
+{
+ background-color: orange;
+}
+.e-schedule .e-month-view .e-work-cells	{
+ background-color: rgb(210, 162, 127);
+ color: white
+}
+.e-header-cells	
+{
+  background: aqua
+}
+
+ .e-selected-cells	
+{
+  background: aqua
+}
+.e-schedule .e-read-only	
+{
+  background-color: red;
+} 
+.e-schedule .e-agenda-view .e-appointment	
+{
+  background-color: rgb(204, 136, 111);
+}
+.e-schedule .e-month-agenda-view .e-work-days
+{
+  background-color: yellowgreen;
+}
+.template-wrap
+{
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top:7px ;
+  padding-bottom: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  height:250px;
+}
+:root {
+	--primary:#98A8F8;
+	--dark: #FAAB78;
+	--gray: #756388;
+	--light: #061b28;
+    font-family: 'Poppins', sans-serif  !important;
+    font-weight: 700;
+}
+.container10{
+  
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+  
+    
+   
+}
+.item-1{
+ 
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    
+    background-color: #cccccc;
+
+}
+.item-2{
+    width:100%;
+    height: 100%;
+   
+
+}
+
+
+.item-4{
+    padding-left: 0px;
+    padding-top: 0px;
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:20px;
+   
+
+
+}

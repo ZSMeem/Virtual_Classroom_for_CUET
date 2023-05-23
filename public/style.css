@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    font-family: "Roboto",sans-serif;
+}
+.pop-up {
+    display: none;
+}
+
+.pop-up.open {
+    display: block;
+}

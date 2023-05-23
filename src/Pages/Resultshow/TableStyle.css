@@ -1,0 +1,73 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
+/*front family of the grid*/
+.e-grid {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/*header font color, header bg, header cell font size*/
+.e-grid .e-headercell {
+    background-color: #82E0AA;
+   
+    
+ }
+ .e-grid .e-headercelldiv {
+    font-size: 15px;
+    color: black;
+    font-weight: 800;
+    
+ }
+ /*hover color */
+.e-grid .e-row:hover .e-rowcell {
+    background-color: rgb(240, 242, 245) !important;
+}
+/*row color even */
+.e-grid .e-row.e-altrow {
+    background-color: rgb(233, 255, 214);
+}
+/*row color odd */
+.e-grid .e-row {
+    background-color: rgb(252, 254, 212);
+}
+/*paging :customize the Grid pager*/
+
+.e-grid .e-gridpager {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F2F3F4 ;
+}
+/* customize the Grid pager container element*/
+
+.e-grid .e-pagercontainer {
+    background-color: #D7DBDD;
+}
+/*Grid pager navigation elements*/
+
+.e-grid .e-gridpager .e-prevpagedisabled,
+.e-grid .e-gridpager .e-prevpage,
+.e-grid .e-gridpager .e-nextpage,
+.e-grid .e-gridpager .e-nextpagedisabled,
+.e-grid .e-gridpager .e-lastpagedisabled,
+.e-grid .e-gridpager .e-lastpage,
+.e-grid .e-gridpager .e-firstpage,
+.e-grid .e-gridpager .e-firstpagedisabled {
+    background-color: #deecf9;
+}
+.e-grid .e-gridpager .e-currentitem {
+    background-color: #0078d7;
+}
+
+/*Sorting*/
+.e-grid .e-icon-ascending::before {
+    content: '\e306';
+}
+
+
+
+
+
+/*toolbar*/
+.e-grid .e-toolbar-items {
+    background-color: #FDEDEC;
+    font-family: 'Times New Roman', Times, serif;
+}
+

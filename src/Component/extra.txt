@@ -1,0 +1,209 @@
+<br/>
+      {
+        posts.map((post)=>{
+          return(
+            <div>
+              <h1>Post:{post.post}</h1>
+              <h2>ID: {post.id}</h2>
+              {
+                post.attachments &&
+                post.attachments.map((files)=>{
+                  <div>
+                    <h3>files.name</h3>
+                    <h4>files.url</h4>
+                  </div>
+                })
+              }
+            </div>
+          )
+        })
+      }
+
+
+
+
+
+
+(Number(key)>=Number(post.numberOfFiles)*3)
+                            ? null
+                            :(Number(key)%3===0)
+                            ?<div>file = {post[key]}<hr /></div>
+                            : (Number(key)%3===2)
+                            ?<div>url = {post[key]}<hr /></div>
+                            :null
+
+
+
+
+
+
+      rafce shortcut
+
+
+
+
+
+
+
+
+
+
+
+
+      {(() => {
+      if (post[key].substring(post[key].length - 3,post[key].lenght) == "pdf") 
+      {
+            return <img src={pdfLogo} width="50" />;
+      } 
+      else if (post[key].substring(post[key].length - 3,post[key].lenght) == "ppt")
+      {
+            return <img src={pptLogo} width="50" />;
+      } 
+      else if (post[key].substring(post[key].length - 3,post[key].lenght) == "jpg" ||
+      post[key].substring(post[key].length - 3,post[key].lenght) == "png")
+      {
+            return <img src={pptLogo} width="50" />;
+      }
+      })()}
+
+
+<div>
+<h3>{post.post}</h3>
+<div>
+      {Object.keys(post).map((key, index) => {
+      return (
+      <div key={index}>
+            {Number(key) < Number(post.numberOfFiles) * 3 &&
+            Number(key) % 3 === 0 ? (
+            <div>
+            file = {post[key]}
+            <br /> Url = {post[(Number(key) + 2).toString()]}
+            <hr />
+            </div>
+            ) : null}
+      </div>
+      );
+      })}
+</div>
+</div>
+
+      {postjson.map((post) => (
+            <div>
+              <Paper
+                sx={{ flexGrow: 1, boxShadow: 3 }}
+                style={{ backgroundColor: "#f3f4d3" }}
+              >
+                <Box className={styles.shareWrapper}>
+                  <EditIcon
+                    sx={{
+                      display: "flex",
+                      justifyContent: "flex-end",
+                      float: "right",
+                      mr: 2,
+                    }}
+                  />
+                  <DeleteIcon
+                    sx={{
+                      display: "flex",
+                      justifyContent: "flex-end",
+                      float: "right",
+                      mr: 2,
+                    }}
+                  />
+                  <div className={styles.shareTop}>
+                    <img
+                      className={styles.shareProfileImg}
+                      src={image}
+                      alt=""
+                    />
+                    <div>
+                      <Typography
+                        variant="h6"
+                        component="h5"
+                        style={{ color: "#5C6380" }}
+                      >
+                        {post.name}
+                      </Typography>
+                      <Typography
+                        variant="caption"
+                        display="block"
+                        gutterBottom
+                      >
+                        Jan 25
+                      </Typography>
+                    </div>
+                  </div>
+                  <Typography variant="body1" gutterBottom>
+                    {post.post}
+                  </Typography>
+
+                  <Grid container spacing={1}>
+                    {post.attachment.map((link) => (
+                      <Grid item sm={6} xm={12}>
+                        <Item>
+                          <Grid container>
+                            <Grid item sx={4}>
+                              {(() => {
+                                if (
+                                  link.substring(
+                                    link.length - 3,
+                                    link.lenght
+                                  ) == "pdf"
+                                ) {
+                                  return <img src={pdfLogo} width="50" />;
+                                } else if (
+                                  link.substring(
+                                    link.length - 3,
+                                    link.lenght
+                                  ) == "ppt"
+                                ) {
+                                  return <img src={pptLogo} width="50" />;
+                                } else if (
+                                  link.substring(
+                                    link.length - 3,
+                                    link.lenght
+                                  ) == "jpg" ||
+                                  link.substring(
+                                    link.length - 3,
+                                    link.lenght
+                                  ) == "png"
+                                ) {
+                                  return (
+                                    <img src={link} width="50" height="60" />
+                                  );
+                                }
+                              })()}
+                            </Grid>
+                            <Grid item sx={8}>
+                              <div style={{ marginLeft: 20 }}>
+                                {link}
+                                <br />
+                                {link.substring(link.length - 3, link.lenght)}
+                              </div>
+                            </Grid>
+                          </Grid>
+                        </Item>
+                      </Grid>
+                    ))}
+                  </Grid>
+                </Box>
+              </Paper>
+              <br />
+              <br />
+            </div>
+          ))}
+
+
+
+
+
+
+
+          const data = await getDocs(postsCollectionRef);
+
+
+          let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
+    let currentDate = `${day}-${month}-${year}`;
+

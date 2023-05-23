@@ -1,0 +1,101 @@
+[
+    {
+        "Course Code" : "CSE-100","Course Credit":"0.75","Level Term": "Level 1-Term 1","Sessional" :"Yes","Result" :"B+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-141","Course Credit":"3","Level Term": "Level 1-Term 1","Sessional" :"No","Result" :" B+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-142","Course Credit":"1.5","Level Term": "Level 1-Term 1","Sessional" :"Yes","Result" :" A","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-144","Course Credit":"1.5","Level Term": "Level 1-Term 2","Sessional" :"Yes","Result" :" A","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "Hum-144","Course Credit":"1.5","Level Term": "Level 1-Term 2","Sessional" :"Yes","Result" :" A","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-251","Course Credit":"3","Level Term": "Level 2-Term 2","Sessional" :"No","Result" :" A","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-335","Course Credit":"3","Level Term": "Level 3-Term 1","Sessional" :"No","Result" :" A","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "Phy-142","Course Credit":"1.5","Level Term": "Level 1-Term 1","Sessional" :"Yes","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-326","Course Credit":"1.5","Level Term": "Level 3-Term 1","Sessional" :"Yes","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    },
+    {
+        "Course Code" : "CSE-352","Course Credit":"1.52565","Level Term": "Level 3-Term 2","Sessional" :"No","Result" :" A+","Regular" : "Yes"
+    }
+]
