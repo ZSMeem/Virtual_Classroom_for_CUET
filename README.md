@@ -1,70 +1,140 @@
-# Getting Started with Create React App
+<p align="center">
+  <img width="300px" src="https://cdn.discordapp.com/attachments/1008571199065964634/1071896754427002930/Pranta_a_psychedelic_logo_for_a_book_from_where_a_little_ray_of_895e637a-0cbe-4b46-b4de-07d1db81001a.png" align="center" alt="GitHub Readme Stats" />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <h1 align="center">CUET Virtual Classroom</h2>
+ <p align="center">CUET Virtual Classroom is an online web application made as the Lab project for CSE 300: Software Development Project.</p>
+</p>
 
-## Available Scripts
+  <p align="center">
+    <a href="https://img.shields.io/badge/Status-Work%20In%20Progress-red">
+      <img src="https://img.shields.io/badge/Status-Incomplete-red"/>
+    </a>
+    <a href="https://img.shields.io/badge/IDE-VIsual%20Studio%20Code-blueviolet">
+      <img src="https://img.shields.io/badge/IDE-VIsual%20Studio%20Code-blueviolet"/>
+    </a>
+    <a href="https://img.shields.io/badge/License-MIT-orange">
+      <img alt="License" src="https://img.shields.io/badge/License-MIT-orange" />
+    </a>
+    <a href="https://img.shields.io/badge/Grade-A%2B-yellowgreen">
+      <img alt="Grade" src="https://img.shields.io/badge/Grade-A%2B-yellowgreen" />
+    </a>
+    <br />
+  <h3 align="center">Built With</h3>
+  <h4 align="center">Frameworks and Dependencies</h4>
+  <p align="center">
+  <a href="https://firebase.google.com/">
+      <img src="https://img.shields.io/badge/-firebase-brown?style=for-the-badge&logo=firebase&logoColor=%2361DAFB"/>
+    </a>
+    <a href="https://reactjs.org/">
+      <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+    </a>
+    </a>
+    <a href="https://www.djangoproject.com/">
+      <img src="https://img.shields.io/badge/-Django-darkgreen?style=for-the-badge&logo=django&logoColor=%2361DAFB"/>
+    </a>
+    </p>
+    </p>
 
-In the project directory, you can run:
+## Team Members:
+* Adiba Sultana- 1804046
+* Nafis Fuad Pranta- 1804053
+* Ashfaqur Rahman Adib- 1804055
+* Tahlil Abrar- 1804056
+* Zerin Shaima Meem- 1804057
 
-### `npm start`
+# Features
+- [Signin](#signin)
+- [Dashboard](#dashboard)
+- [Notifications](#notifications)
+- [Sidebar](#sidebar)
+- [Calendar](#calendar)
+- [Profile](#profile)
+- [Edit Profile](#edit-profile)
+- [Create Course](#create-course)
+- [Publish Result](#publish-result)
+- [Attendance](#attendance])
+- [Display Result](#display-result)
+- [Join Class](#join-class)
+- [Class List](#class-list)
+- [View Inside Classroom](#view-classroom)
+- [Upload Post](#upload-post)
+- [Comment](#comment)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Signin
+Students and teachers can login to an already existing account.If they forget their password, a reset password link will be sent to their email.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Signin](demoImages/signin1.jpg)     ![Signin](demoImages/signin2.png)
 
-### `npm test`
+## Dashboard
+The interface of dashboard is similar for both students and teachers consisting of different classes for respective students and teachers.
+![Dashboard](demoImages/dashboard.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Notifications
+Teachers posting assignments or setting quiz time will be notified to the students who have joined to that particular class by using class code.
 
-### `npm run build`
+![Notifications](demoImages/notifications.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Sidebar
+Sidebar for both students and teachers is quite similar except the fact that teachers can enable himself to create new classes and assign results of exams of a particular class to students who have joined in that class. And students can view the published results of different courses.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Sidebar](demoImages/sidebar1.png)    ![Sidebar](demoImages/sidebar2.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Calendar
+This is a calendar routine for the students so that each and every student from different levels and terms can enable himself to observe different classes that is going to occur through out the semester and plan accordingly(13 weeks) 
 
-### `npm run eject`
+![Calendar](demoImages/calendar.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Profile
+Stuedents view consist of information relating to contact number,address,ID,email etc. whereas a teacher view consist of his/her name,designation and link to his/her online presence as well
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Profile](demoImages/profile.png)  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Profile](demoImages/profile1.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Edit Profile
+Both teacher and students have access to change their set data on their profile.
+![Edit Profile](demoImages/edit-profile.png)
 
-## Learn More
+## Create Course
+Only teacher account has access to this particular feature.Student account can't open new class for any course.
+![Create Course](demoImages/create-course.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Publish Result
+Only teacher account has access to this particular feature.Any teacher can publish the CT marks and grade to all students who have joined in that class.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Publish Result](demoImages/publish-result.png)
 
-### Code Splitting
+## Attendance
+Teacher can take attendance of students who are present.
+![Attendance](demoImages/attendance.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Display Result
+Users can create a new account by registering with an email.
+![Display Result](demoImages/display-result.png)
 
-### Analyzing the Bundle Size
+## Join Class
+Users can create a new account by registering with an email.
+![Join Class](demoImages/join-class.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Class List
+Users can create a new account by registering with an email.
+![Class List](demoImages/class-list.png)
 
-### Making a Progressive Web App
+## View Inside Classroom
+Users can create a new account by registering with an email.
+![View Inside Classroom](demoImages/view.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Upload Post
+Users can create a new account by registering with an email.
+![Upload Post](demoImages/upload_post.png)
 
-### Advanced Configuration
+## Comment
+Users can create a new account by registering with an email.
+![Comment](demoImages/comment.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Resources:
+### Tutorials:
+* [Basic React Tutorial by Learn with Sumit-LWS-Bangladesh](https://www.youtube.com/watch?v=5Xy-t8k_M4A&list=PLHiZ4m8vCp9M6HVQv7a36cp8LKzyHIePr)
+* [Basic Django Tutorial by Corey Schafer](https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p)
+* [Firebase Tutorial by freeCodeCamp.org](https://www.youtube.com/watch?v=fgdpvwEWJ9M)
